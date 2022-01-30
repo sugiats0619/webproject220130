@@ -4,13 +4,13 @@ import Header from "./Header";
 const Layout = (props) => {
   return (
     <div className={styles.container}>
-      {" "}
-      <Header /> <main>{props.children}</main>{" "}
+      <Header />
+      <main>{props.children}</main>
       <footer className={styles.footer}>
-        {" "}
-        <p className={styles.copyright}>& copy; 2020 つ のぶえ 出版 </p>{" "}
-      </footer>{" "}
+        <p className={styles.copyright}>&copy; 2020 つのぶえ出版</p>
+      </footer>
     </div>
   );
 };
+
 export default Layout;

@@ -5,7 +5,7 @@ import "./index.css";
 import App from "./App";
 const works = [
   {
-    title: "『執筆 DAYS』 リニューアル",
+    title: "『執筆  DAYS』 リニューアル",
     roles: ["WordPress", "React"],
     imageUrl: "/work.png",
   },

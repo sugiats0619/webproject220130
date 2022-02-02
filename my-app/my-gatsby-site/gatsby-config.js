@@ -1,8 +1,24 @@
 module.exports = {
-    siteMetadata: {
-        siteUrl: `https://www.yourdomain.tld`,
+  siteMetadata: {
+    title: "My Gatsby Site",
+    description: "Hello Gatsby",
+  },
+  plugins: [
+    {
+      resolve: `gatsby-source-rss-feed`,
+      options: {
+        url: `https://qiita.com/mottox2/feed`,
+        name: `Qiita`,
+      },
     },
-    plugins: [
-
-    ]
-}
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "works",
+        path: `${__dirname}/src/works.yaml`,
+      },
+    },
+    "gatsby-transformer-yaml",
+    "gatsby-plugin-react-helmet",
+  ],
+};

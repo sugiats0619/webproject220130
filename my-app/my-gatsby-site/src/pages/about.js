@@ -7,7 +7,7 @@ const AboutPage = (props) => {
         <title>My Gatsby Site</title>
         <meta name="descrioption" content="My first gatsby website" />{" "}
       </Helmet>
-      <p>Hello Gatsby</p>
+      <p>Hellossssssssssss Gatsby</p>
     </div>
   );
 };
